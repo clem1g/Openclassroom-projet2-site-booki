@@ -1,0 +1,89 @@
+@media all and (max-width: 991px) {
+  .btt_filtre {
+    margin: 5px;
+  }
+  #hebergement {
+    margin-top: 20px;
+    background-color: white;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  header {
+    padding: 0;
+    justify-content: center;
+  }
+  .nav_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+  }
+  .menu {
+    border-top: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu {
+    border-top: 0px solid white;
+    border-bottom: 3px solid #f2f2f2;
+    padding: 30px 10px;
+  }
+  .menu:hover {
+    border-top: 0px solid white;
+
+    border-bottom: 3px solid #0065fc;
+    padding: 30px 10px;
+  }
+  section,
+  aside,
+  footer,
+  #main {
+    padding: 15px;
+    border-radius: 0;
+  }
+
+  .submit {
+    display: none;
+  }
+  .boutton_filtre {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .fa-search {
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0 15px 15px 0;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px;
+    opacity: 1;
+    transition: 0.2ms;
+  }
+
+  .fa-search:hover {
+    color: black;
+    background-color: #f2f2f2;
+  }
+  .galerie-hebergement {
+    justify-content: center;
+  }
+  .card-activite {
+    width: 250px;
+  }
+
+  .card-activite .card-img {
+    height: 250px;
+  }
+  .nav-footer {
+    margin-top: 10px;
+  }
+}
